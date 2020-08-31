@@ -11,7 +11,7 @@ Dentro de cada pasta um README.md estará disponível com mais informações sob
 
 Alguns mitos são criados dentro da área de tecnologia como por exemplo a dificuldade de ingressar na área, assim como se tornar um bom profissional mesmo com pouco conhecimento. Entendo que tudo faz parte de um processo que está em constante evolução.
 
-Nascido numa favela do Rio de Janeiro e apaixonado por tecnologia hoje, morando em São Paulo, faço parte de uma das maiores empresas de tecnologia do Brasil a PagSeguro.
+Nascido numa favela do Rio de Janeiro e apaixonado por tecnologia e agora morando em São Paulo, faço parte de uma das maiores empresas de tecnologia do Brasil a PagSeguro.
 
 Tudo isso só foi possível pois conheci pessoas incríveis e que me mostraram os melhores caminhos a seguir. No final das contas as maiores partes de nossas conquistas não dependem apenas da gente. Acostume-se com isso e evolua com humildade sempre.
 
