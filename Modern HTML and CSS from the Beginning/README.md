@@ -20,7 +20,7 @@ Sinta-se a vontade para abrir uma PR e solicitar as correções. Isso me ajuda a
 
 ## Contato
 
-Email: hudson.santosr@gmail.com
-WhatsApp: (21)97007-1630
-Linkedin: https://www.linkedin.com/in/hudsonr
-Website: https://hudsonramos.com.br
+Email: hudson.santosr@gmail.com  
+WhatsApp: (21)97007-1630  
+Linkedin: https://www.linkedin.com/in/hudsonr  
+Website: https://hudsonramos.com.br  
