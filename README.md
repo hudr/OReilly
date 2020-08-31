@@ -20,7 +20,7 @@ Desde já agradeço a todos que tornaram este meu sonho possível.
 
 ## Contato
 
-Email: hudson.santosr@gmail.com
-WhatsApp: (21)97007-1630
-Linkedin: https://www.linkedin.com/in/hudsonr
-Website: https://hudsonramos.com.br
+Email: hudson.santosr@gmail.com  
+WhatsApp: (21)97007-1630  
+Linkedin: https://www.linkedin.com/in/hudsonr  
+Website: https://hudsonramos.com.br  
