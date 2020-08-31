@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline & Block Styling</title>
+    <style>
+      /*
+          Li is a block element, because of this
+          we need to put inline when we want
+          to put items next to each other.
+
+          Remember: this will change bullets to 'none'.
+        */
+      li {
+        display: inline;
+      }
+
+      li a {
+        padding-right: 20px;
+      }
+
+      /*
+        Images are inline elements and because of this
+        we can't center image in page... In this case
+        we need to convert img to display: block;
+      */
+      img {
+        display: block;
+        margin: auto;
+      }
+
+      .box {
+        width: 32.8%;
+
+        /*
+          We can't use only inline here because when
+          u use inline the property width is ignored
+        */
+        /* display: inline; */
+        display: inline-block;
+        box-sizing: border-box;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">Technology</a></li>
+      <li><a href="#">Business</a></li>
+      <li><a href="#">Fashion</a></li>
+    </ul>
+
+    <br />
+    <br />
+
+    <img src="./img/leaf.png" alt="My image" />
+
+    <br />
+    <br />
+
+    <div class="box">
+      <h3>Heading</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+        assumenda deserunt inventore praesentium dolorem error reiciendis fugit
+        nam corporis ex?
+      </p>
+    </div>
+    <div class="box">
+      <h3>Heading</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+        assumenda deserunt inventore praesentium dolorem error reiciendis fugit
+        nam corporis ex?
+      </p>
+    </div>
+    <div class="box">
+      <h3>Heading</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+        assumenda deserunt inventore praesentium dolorem error reiciendis fugit
+        nam corporis ex?
+      </p>
+    </div>
+  </body>
+</html>
