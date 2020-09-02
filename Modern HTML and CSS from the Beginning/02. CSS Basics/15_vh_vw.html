@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vh & Vw Units</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      header {
+        background: #333 url('https://source.unsplash.com/daily') no-repeat
+          center center/cover;
+
+        color: #fff;
+
+        /*
+            It's equal to nothing because the content
+            already is filling the space. It means that
+            when u add content the block will be bigger
+            than it was before
+         */
+        height: 100%;
+
+        /* In this case we fill all the height in screen */
+        height: 100vh;
+        /* width: 50vw; */
+
+        text-align: center;
+        padding: 2rem;
+        padding-top: 15rem;
+      }
+
+      header h1 {
+        font-size: 3rem;
+      }
+
+      header p {
+        margin: 1rem 0;
+      }
+
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        background: #f4f4f4;
+        color: #333;
+        padding: 0.7rem 2rem;
+      }
+
+      section {
+        padding: 2rem;
+      }
+
+      @media (max-height: 450px) {
+        header {
+          padding-top: 5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Our Website</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+        accusantium assumenda nostrum maiores quia earum?
+      </p>
+      <a href="#" class="btn">Find Out More</a>
+    </header>
+
+    <section>
+      <h3>About Our Company</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius rem illo
+        reiciendis repudiandae ad numquam cumque quo natus possimus et
+        asperiores rerum eos illum enim cum dolor, dolorum obcaecati earum
+        cupiditate totam iusto sequi modi similique? A possimus voluptas tenetur
+        amet qui pariatur consequatur quas corporis. Sed omnis eos ab?
+      </p>
+    </section>
+  </body>
+</html>
