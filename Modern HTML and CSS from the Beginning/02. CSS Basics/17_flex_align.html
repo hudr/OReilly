@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Align</title>
+    <style>
+      #container {
+        background: #555;
+        display: flex;
+
+        /* flex-wrap: wrap; */
+
+        /* Align Items horizontal */
+        justify-content: space-around;
+        /* 
+            OPTIONS (X axis)
+            flex-start - left (default)
+            flex-end - right
+            center
+            space-between
+            space-around - search for good spaces between and outside
+            space-evenly - take the exact space between and outsite
+         */
+
+        height: 600px;
+
+        /* Align Items vertical (must be height) */
+        align-items: baseline;
+        /* 
+            OPTIONS (Y axis)
+            flex-start
+            flex-end
+            center
+            baseline
+            stretch (default)
+         */
+
+        /* Align items vertical where extra spaces */
+        align-content: space-between;
+        /* 
+            OPTIONS (Y axis)
+            flex-start
+            flex-end
+            center
+            space-between
+            space-around
+            stretch (default)
+         */
+      }
+
+      .item-1 {
+        order: 3;
+      }
+
+      .item-2 {
+        /* Align single item vertical */
+        align-self: center;
+        /* 
+            OPTIONS (Y axis)
+            flex-start
+            flex-end
+            center
+            baseline
+            stretch (default)
+         */
+
+        order: 2;
+      }
+
+      .item-3 {
+        order: 1;
+      }
+
+      .item {
+        background: #f4f4f4;
+        border: #ccc solid 1px;
+        padding: 1rem;
+        text-align: center;
+        margin: 0.5rem;
+
+        width: 100px;
+        /* The same thing as width */
+        flex-basis: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="item item-1"><h3>Item 1</h3></div>
+      <div class="item item-2"><h3>Item 2</h3></div>
+      <div class="item item-3"><h3>Item 3</h3></div>
+    </div>
+  </body>
+</html>

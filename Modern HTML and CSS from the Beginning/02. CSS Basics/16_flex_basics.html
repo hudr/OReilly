@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Basics</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      #container {
+        display: flex;
+
+        flex-direction: row;
+        /* flex-direction: column; */
+
+        /*
+            Only 12 elements will show in the screen
+            in this case we're telling we need to
+            elements break the line when the screen
+            is full
+        */
+        flex-wrap: wrap;
+
+        /* Equal to flex-direction + flex-wrap */
+        flex-flow: row wrap;
+      }
+
+      .item {
+        background: #f4f4f4;
+        border: #ccc solid 1px;
+        padding: 1rem;
+        text-align: center;
+
+        /* Take all the space in width */
+        flex: 1;
+
+        margin: 0.75rem;
+      }
+
+      .item:first-child {
+        /* Take the spaces present */
+        flex: 2;
+
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="item"><h3>Item 1</h3></div>
+      <div class="item"><h3>Item 2</h3></div>
+      <div class="item"><h3>Item 3</h3></div>
+      <div class="item"><h3>Item 4</h3></div>
+      <div class="item"><h3>Item 5</h3></div>
+      <div class="item"><h3>Item 6</h3></div>
+      <div class="item"><h3>Item 7</h3></div>
+      <div class="item"><h3>Item 8</h3></div>
+      <div class="item"><h3>Item 9</h3></div>
+      <div class="item"><h3>Item 10</h3></div>
+      <div class="item"><h3>Item 11</h3></div>
+      <div class="item"><h3>Item 12</h3></div>
+      <div class="item"><h3>Item 13</h3></div>
+      <div class="item"><h3>Item 14</h3></div>
+      <div class="item"><h3>Item 15</h3></div>
+      <div class="item"><h3>Item 16</h3></div>
+    </div>
+  </body>
+</html>
